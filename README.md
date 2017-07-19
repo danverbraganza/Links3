@@ -21,9 +21,9 @@ Each time I'd have to struggle with dangling pointers and weird edge cases until
 I got it right. Then, a few days ago, I tried to solve the problem again and
 found a way of breaking up the problem into a better solution.
 
-## ll.go
+## link.go
 
-This github repo contains the package which defines ll.go, a go package that
+This github repo contains the package which defines link.go, a go package that
 defines a linked list of integers.
 
 `Cons` is the function that is used to construct and add to a linked list by
@@ -41,7 +41,11 @@ this easy to implement is the helper function ReverseFirstN. ReverseBy3s
 repeatedly calls ReverseFirstN to split off the first 3 elements and reverse
 them. It joins the pieces as it goes, and then returns the completed list.
 
-Have a look at ll/ll_test.go for example code.
+Have a look at link/link_test.go for example code. You may run it with
+
+```
+! go test github.com/danverbraganza/Links3/link/
+```
 
 This code is not meant to be used in production. It just demonstrates a way to
 simplify the algorithm of reversing by 3s. I'm planning to tell the whole story

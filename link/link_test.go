@@ -1,4 +1,4 @@
-package ll
+package link
 
 import "fmt"
 
