@@ -29,8 +29,8 @@ defines a linked list of integers.
 `Cons` is the function that is used to construct and add to a linked list by
 creating a new element as the head of the list.
 
-As a warm up and an aid to testing, I also defined the functions Len, Reverse
-and String, which respectively returns the length of the list, reverses the list
+As a warm up and an aid to testing, I also defined the functions `Len`, `Reverse`
+and `String`, which respectively returns the length of the list, reverses the list
 in place and returns the string representation of the list.
 
 ## ReverseBy3s
